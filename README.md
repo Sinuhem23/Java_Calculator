@@ -1,6 +1,6 @@
 # Java_Calculator
 
-### A basic calculator built in java!
+### A basic calculator built in Java!
 
 - Press 1 to Add 
 - Press 2 to Subtract
