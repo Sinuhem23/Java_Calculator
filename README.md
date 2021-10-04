@@ -2,8 +2,8 @@
 
 ### A basic calculator built in java!
 
-- 1 to Add
-- 2 to Subtract
-- 3 to Multiply
-- 4 to Divide
-- 5 to Exit
+- Press 1 to Add 
+- Press 2 to Subtract
+- Press 3 to Multiply
+- Press 4 to Divide
+- Press 5 to Exit
