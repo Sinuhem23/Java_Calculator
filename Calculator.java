@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Calculator {
 	// In the switch case, a direct math problem can be done but Here I practice methods
+ 
 	public static double add(double num1, double num2) {
     	return num1 + num2;
     }
