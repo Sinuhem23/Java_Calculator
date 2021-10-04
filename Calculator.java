@@ -2,6 +2,20 @@ package Java_Calculator;
 import java.util.Scanner;
 
 public class Calculator {
+	// In the switch case, a direct math problem can be done but Here I practice methods
+	public static double add(double num1, double num2) {
+    	return num1 + num2;
+    }
+	public static double subtract(double num1, double num2) {
+    	return num1 - num2;
+    }
+	public static double multiply(double num1, double num2) {
+    	return num1 * num2;
+    }
+	public static double divide(double num1, double num2) {
+    	return num1 / num2;
+    }
+	 
 
 	public static void main(String[] args) {
 		
@@ -28,7 +42,7 @@ public class Calculator {
         operator_selection = scan.next().charAt(0);
      
 
-  // Write different methods for each module (add, subtract, multiply, and divide).
+  // Write different methods for each module (add, subtract, multiply, and divide).     
   //
   // Use switch/case to call the particular method.
   //
@@ -41,19 +55,19 @@ public class Calculator {
   // 1. Add 2. Subtract 3. Multiply 4. Divide 5. Exit
       switch(operator_selection) {
       case '1':
-    	  result = user_num1 + user_num2;
+    	  result = add(user_num1, user_num2);
     	  System.out.println(user_num1 + " + " + user_num2 + " = " + result);
           break;
       case '2':
-    	  result = user_num1 - user_num2;
+    	  result = subtract(user_num1, user_num2);
     	  System.out.println(user_num1 + " - " + user_num2 + " = " + result);
           break;
       case '3':
-    	  result = user_num1 * user_num2;
+    	  result = multiply(user_num1, user_num2);
     	  System.out.println(user_num1 + " * " + user_num2 + " = " + result);
           break;
       case '4':
-    	  result = user_num1 / user_num2;
+    	  result = divide(user_num1, user_num2);
     	  System.out.println(user_num1 + " / " + user_num2 + " = " + result);
           break;
       case '5':
